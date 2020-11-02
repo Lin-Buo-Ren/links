@@ -15,6 +15,9 @@ apps:
       - home
       - network
       - network-bind
+    environment:
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
 
 parts:
   links:
